@@ -15,45 +15,48 @@
         rel="stylesheet">
 
     <!-- Vendors' files -->
-    <link href="vendor_assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="vendor_assets/icofont/icofont.min.css" rel="stylesheet">
-    <link href="vendor_assets/boxicons/css/boxicons.min.css" rel="stylesheet">
-    <link href="vendor_assets/venobox/venobox.css" rel="stylesheet">
-    <link href="vendor_assets/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
     <link href="vendor_assets/aos/aos.css" rel="stylesheet">
+    <link href="vendor_assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor_assets/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="vendor_assets/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="vendor_assets/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="vendor_assets/swiper/swiper-bundle.min.css" rel="stylesheet">
 
     <!-- My main CSS file -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <header id="header" class="fixed-top">
-        <div class="container-fluid d-flex">
-            <div class="logo mr-auto">
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container d-flex align-items-center justify-content-between">
+            <div class="name-logo">
                 <h1 class="text-light"><a href="index.html"><span>Ali Al-Adhami</span></a></h1>
             </div>
-            <nav class="nav-menu d-none d-lg-block">
+            <nav id="navbar" class="navbar">
                 <ul>
-                    <li class="active"><a href="#header">Home</a></li>
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#endorse">Testimonials</a></li>
-                    <li><a href="#contact">Contact Me</a></li>
-                    <li class="get-started"><a href="#about">Get Started</a></li>
+                    <li><a class="navbar_link scrollto active" href="#header">Home</a></li>
+                    <li><a class="navbar_link scrollto" href="#about">About Me</a></li>
+                    <li><a class="navbar_link scrollto" href="#skills">Skills</a></li>
+                    <li><a class="navbar_link scrollto" href="#projects">Projects</a></li>
+                    <li><a class="navbar_link scrollto" href="#endorse">Testimonials</a></li>
+                    <li><a class="navbar_link scrollto" href="#contact">Contact Me</a></li>
+                    <li><a class="get-started scrollto" href="#about">Get Started</a></li>
                 </ul>
-            </nav><!-- .nav-menu -->
+                <i class="bi bi-list mobile-nav-toggle"></i>
+            </nav><!-- .navbar -->
         </div>
     </header><!-- End Header -->
 
     <!-- start of the page -->
     <section id="landing" class="d-flex align-items-center">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 pt-5 pt-lg-0 order-2 order-lg-1">
+            <div class="row gy-4">
+                <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
                     <h1>Welcome to my personal website!</h1>
                     <h2>I'm an enthusiast Computer Science student at UT Austin</h2>
-                    <a href="#about" class="btn-know-me scrollto">Get to know me!</a>
+                    <div>
+                        <a href="#about" class="btn-know-me scrollto">Get Started</a>
+                    </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 proud-img">
                     <img src="img/proud.svg" alt="" class="img-fluid animated">
@@ -63,13 +66,12 @@
     </section>
 
     <!-- Vendors' JavaScript -->
-    <script src="vendor_assets/jquery/jquery.min.js"></script>
-    <script src="vendor_assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor_assets/jquery.easing/jquery.easing.min.js"></script>
-    <script src="vendor_assets/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="vendor_assets/venobox/venobox.min.js"></script>
-    <script src="vendor_assets/owl.carousel/owl.carousel.min.js"></script>
     <script src="vendor_assets/aos/aos.js"></script>
+  <script src="vendor_assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor_assets/glightbox/js/glightbox.min.js"></script>
+  <script src="vendor_assets/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="vendor_assets/php-email-form/validate.js"></script>
+  <script src="vendor_assets/swiper/swiper-bundle.min.js"></script>
 
     <!-- My main JavaScript file -->
     <script>src = "js/main.js"</script>

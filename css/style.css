@@ -3,12 +3,49 @@ body {
     color: #212529;
 }
 
+a {
+    color: #eb5d1e;
+    text-decoration: none;
+}
+
 a:hover {
     text-decoration: none;
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
     font-family: "Raleway", sans-serif;
+}
+
+#header {
+    height: 72px;
+    transition: all 0.5s;
+    z-index: 997;
+    transition: all 0.5s;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+  
+#header .logo h1 {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+  
+#header .logo h1 a, #header .logo h1 a:hover {
+    color: #7a6960;
+    text-decoration: none;
+}
+  
+#header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 40px;
+}
+  
+#main {
+    margin-top: 72px;
 }
 
 #landing .animated{
@@ -51,4 +88,50 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #landing .btn-know-me:hover {
     background: #ef7f4d;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navbar li {
+    position: relative;
+}
+
+.navbar a, .navbar a:focus {
+    color: #4e4039;
+    display: flex;
+    align-items: center;
+    padding: 10px 0 10px 30px;
+    position: relative;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    transition: 0.35s;
+}
+
+.navbar a:hover, .navbar .active, .navbar .active:hover  {
+    color: #eb5d1e;
+    text-decoration: none;
+}
+
+.navbar .get-started {
+    background: #eb5d1e;
+    padding: 10px 25px;
+    color: #fff;
+    margin-left: 30px;
+    border-radius: 50px;
+}
+
+.navbar .get-started:hover {
+    background-color: #ef7f4d;
+    color: #fff;
 }

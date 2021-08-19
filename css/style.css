@@ -1,4 +1,54 @@
 body {
     font-family: "Open Sans", sans-serif;
     color: #212529;
-  }
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, .font-primary {
+    font-family: "Raleway", sans-serif;
+}
+
+#landing .animated{
+    animation: up-down 2s ease-in-out infinite alternate reverse both;
+}
+
+#landing {
+    width: 100%;
+    height: 70vh;
+    background: #fef8f5;
+    border-bottom: 2px solid #fcebe3;
+    margin: 72px 0 -72px 0;
+}
+
+#landing h1 {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 56px;
+    margin: 0 0 10px 0;
+    color: #4e4039;
+}
+
+#landing h2 {
+    margin-bottom: 50px;
+    font-size: 25px;
+    color: #a08f86;
+}
+
+#landing .btn-know-me {
+    font-weight: 500;
+    background-color: #eb5d1e;
+    color: #fff;
+    display: inline-block;
+    transition: 1s;
+    padding: 10px 30px;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 10px;
+}
+
+#landing .btn-know-me:hover {
+    background: #ef7f4d;
+}

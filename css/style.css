@@ -8,6 +8,11 @@ a {
     text-decoration: none;
 }
 
+::selection {
+    background: #F4AF92;
+    color: #212529;
+}
+
 a:hover {
     color: #ef7f4d;
     text-decoration: none;

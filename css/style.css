@@ -369,6 +369,28 @@ section {
     padding-bottom: 12px;
   }
   
+  #footer .footer-top .social-links a {
+    align-content: center;
+    font-size: 18px;
+    display: inline-block;
+    background: #eb5d1e;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #footer .footer-top .social-links a:hover {
+    background: #ef7f4d;
+    color: #fff;
+    text-decoration: none;
+  }
+
   #footer .copyright {
     text-align: center;
     float: left;

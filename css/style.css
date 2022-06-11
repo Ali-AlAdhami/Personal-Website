@@ -382,13 +382,14 @@ section {
     text-align: center;
     width: 36px;
     height: 36px;
-    transition: 0.3s;
+    transition: 0.3s cubic-bezier(.54,.58,.24,1.04);
   }
   
   #footer .footer-top .social-links a:hover {
     background: #ef7f4d;
     color: #fff;
     text-decoration: none;
+    transform: translateY(-5px);
   }
 
   #footer .copyright {

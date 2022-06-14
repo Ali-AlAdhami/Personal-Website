@@ -253,12 +253,12 @@ section {
     background-color: #fef8f5;
 }
 
-.skills-intro {
+.section {
     text-align: center;
     padding-bottom: 30px;
 }
 
-.skills-intro h2 {
+.section h2 {
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 0;
@@ -267,7 +267,7 @@ section {
     color: #c2b7b1;
   }
   
-.skills-intro p {
+.section p {
     padding-bottom: 15px;
     margin-bottom: 15px;
     position: relative;
@@ -276,7 +276,7 @@ section {
     color: #4e4039;
 }
 
-.skills-intro p::after {
+.section p::after {
     content: '';
     position: absolute;
     display: block;

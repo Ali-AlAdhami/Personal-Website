@@ -38,10 +38,19 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     font-weight: 400;
     letter-spacing: 2px;
 }
-  
+
 #header .name-logo h1 a, #header .name-logo h1 a:hover {
     color: #7a6960;
     text-decoration: none;
+    transform: translateY(-5px) !important;
+}
+
+.name-logo {
+  transition: all ease 0.3s;
+}
+
+.name-logo:hover {
+  transform: translateY(-4px);
 }
   
 #header .name-logo img {
@@ -49,7 +58,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
     margin: 0;
     max-height: 40px;
 }
-  
+
 #main-page {
     margin-top: 72px;
 }
